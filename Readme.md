@@ -14,7 +14,7 @@
 ````````
 
 <h1>Slogr TWAMP</h1>
-<br>
+
 <h2>Structure</h2>
 Slogr TWAMP system consists of TWO major components.
 <h3>a. Agent</h3>
