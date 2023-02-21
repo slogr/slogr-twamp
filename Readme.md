@@ -36,7 +36,7 @@ Sessions can be created through controller’s Web Interface.
 
 
 <h2>Prerequisites</h2>
-<strong>Ports ( 9000, 5000, 8009 ) need to open for inbound and
+<strong>Ports ( TCP 9000, 5000, 8009 ) ( UDP 60000 ) need to open for inbound and
 outbound<br><br>
 Internet Connection for installation of necessary packages<br><br>
 SSH access to VM for deployment cmds</strong><br><br>
