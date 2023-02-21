@@ -1,3 +1,6 @@
+
+<h1>Slogr TWAMP</h1>
+
 ````````txt
 
                                 ██████  ██▓     ▒█████    ▄████  ██▀███  
@@ -13,7 +16,7 @@
 
 ````````
 
-<h1>Slogr TWAMP</h1>
+
 
 <h2>Structure</h2>
 Slogr TWAMP system consists of TWO major components.
