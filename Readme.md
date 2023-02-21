@@ -68,7 +68,7 @@ SSH access to VM for deployment cmds</strong><br><br>
 <code>cd slogr-twamp/controller/</code><br><br
 <p>Run Docker compose ( use sudo )</p>
 <code>sudo docker compose up -d</code><br><br>
-<strong><em>Controller and Database should be up and running in Docker Container. Run <code>sudo docker ps</code> to check.</em></strong>
+<strong><em>Controller and Database should be up and running in Docker Container. Run <code>sudo docker ps</code> to check.</em></strong><br>
 <strong>Open [ vm-public-ip:5000 ] in your browser for Web interface.</strong><br>
 
 <h2>Access db</h2>
