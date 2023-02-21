@@ -1,0 +1,21 @@
+version: "2"
+services:
+  app:
+    restart: always
+    image: ghalibbajwa/slogr-controller:latest
+    links:
+      - db
+    ports:
+      - "5000:5000"
+    
+
+  db:
+    image: mysql:5.7
+    restart: always
+    ports:
+      - "32000:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d/:ro
+    

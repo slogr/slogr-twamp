@@ -1,0 +1,15 @@
+version: "2"
+services:
+  app:
+    restart: always
+    image: ghalibbajwa/slogr-agent:latest
+    ports:
+      - "9000:9000"
+  server:
+    restart: always
+    image: ghalibbajwa/slogr-server:latest
+    ports:
+      - "8009:8009"
+    
+
+ 
