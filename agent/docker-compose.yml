@@ -4,7 +4,7 @@ services:
     restart: always
     image: ghalibbajwa/slogr-agent:latest
     ports:
-      - "9000:9000"
+      - "5000:5000"
       
   server:
     restart: always
